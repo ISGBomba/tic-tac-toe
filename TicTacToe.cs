@@ -31,7 +31,7 @@ namespace Leonding.Pose.TicTacToe
             Console.Write(">> Please enter the first Player (X): ");
             string firstPlayer = Console.ReadLine();
 
-            Console.Write("Please enter the seconds Player (O): ");
+            Console.Write(">> Please enter the seconds Player (O): ");
             string secondPlayer = Console.ReadLine();
 
             //calculate first Player via if
@@ -55,14 +55,14 @@ namespace Leonding.Pose.TicTacToe
             {
                 if (i % 2 == 0 && !draw && !win)
                 {
-                    Console.WriteLine($"{secondPlayerString}, it's your turn!");
+                    Console.WriteLine($">> {secondPlayerString}, it's your turn!");
                 }
                 else
                 {
-                    Console.WriteLine($"{firstPlayerString}, it's your turn!");
+                    Console.WriteLine($">> {firstPlayerString}, it's your turn!");
                 }
                 Console.Write(TicTacToeField);
-                Console.Write($"Please enter {i}. field number: ");
+                Console.Write($">> Please enter {i}. field number: ");
                 string fieldNumber = Console.ReadLine();
             }
         }
