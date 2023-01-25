@@ -28,7 +28,7 @@ namespace Leonding.Pose.TicTacToe
             int firstPlayerRandom = random.Next(1, 3);
 
             //ask the user for name
-            Console.Write("Please enter the first Player (X): ");
+            Console.Write(">> Please enter the first Player (X): ");
             string firstPlayer = Console.ReadLine();
 
             Console.Write("Please enter the seconds Player (O): ");
